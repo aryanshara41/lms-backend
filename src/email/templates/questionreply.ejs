@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Reply Notification</title>
+</head>
+<body>
+    <div style="background-color: #f5f5f5; padding: 20px;">
+        <div style="max-width: 600px; margin: 0 auto; background-color: #fff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); padding: 20px;">
+            <h2 style="color: #333; font-family: Arial, sans-serif;">Question Reply Notification</h2>
+            <p style="font-family: Arial, sans-serif;">
+                Hello <%= username %>,
+            </p>
+            <p style="font-family: Arial, sans-serif;">
+                Someone has replied to your question:
+            </p>
+            <blockquote style="border-left: 4px solid #007bff; padding: 10px; margin: 10px 0;">
+                <%= question %>
+            </blockquote>
+            <p style="font-family: Arial, sans-serif;">
+                Here is the reply:
+            </p>
+            </blockquote>
+            <p style="font-family: Arial, sans-serif;">
+                Thank you for using our platform!
+            </p>
+            <p style="font-family: Arial, sans-serif;">
+                Best regards,
+                Your Team
+            </p>
+        </div>
+    </div>
+</body>
+</html>
